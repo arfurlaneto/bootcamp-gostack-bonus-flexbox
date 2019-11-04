@@ -181,15 +181,15 @@ div.bar .content .actions button {
     margin-right: 20px;
 }
 
-div.wraper-content  {
+div.wrapper-content  {
     display: flex;
 }
 
-div.wraper-content aside.profile {
+div.wrapper-content aside.profile {
     width: 260px;
 }
 
-div.wraper-content aside.profile img.avatar {
+div.wrapper-content aside.profile img.avatar {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -197,29 +197,29 @@ div.wraper-content aside.profile img.avatar {
     margin-top: -130px;
 }
 
-div.wraper-content aside.profile h1 {
+div.wrapper-content aside.profile h1 {
     font-size: 21px;
     color: #1f2226;
     margin-top: 10px;
 }
 
-div.wraper-content aside.profile span {
+div.wrapper-content aside.profile span {
     font-size: 14px;
     color: #53626c;
 }
 
-div.wraper-content aside.profile p {
+div.wrapper-content aside.profile p {
     font-size: 14px;
     color: #1f2226;
     margin-top: 15px;
 }
 
-div.wraper-content aside.profile ul {
+div.wrapper-content aside.profile ul {
     margin-top: 20px;
     list-style: none;
 }
 
-div.wraper-content aside.profile ul.profile-list li {
+div.wrapper-content aside.profile ul.profile-list li {
     font-size: 14px;
     color: #657786;
     display: flex;
@@ -227,19 +227,19 @@ div.wraper-content aside.profile ul.profile-list li {
     margin-top: 5px;
 }
 
-div.wraper-content aside.profile li:first-child { 
+div.wrapper-content aside.profile li:first-child { 
     margin-top: 0;
 }
 
-div.wraper-content aside.profile li img {
+div.wrapper-content aside.profile li img {
     margin-right: 10px;
 }
 
-div.wraper-content aside.profile .widget {
+div.wrapper-content aside.profile .widget {
     margin-top: 20px;
 }
 
-div.wraper-content aside.profile .widget strong {
+div.wrapper-content aside.profile .widget strong {
     font-weight: normal;
     color: #3bb9e3;
     font-size: 14px;
@@ -247,17 +247,17 @@ div.wraper-content aside.profile .widget strong {
     align-items: center;
 }
 
-div.wraper-content aside.profile .widget strong img {
+div.wrapper-content aside.profile .widget strong img {
     margin-right: 5px;
 }
 
-div.wraper-content aside.profile .followers ul {
+div.wrapper-content aside.profile .followers ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-div.wraper-content aside.profile .followers ul li {
+div.wrapper-content aside.profile .followers ul li {
     width: 45px;
     height: 45px;
     background: #d0d5d9;
@@ -266,18 +266,173 @@ div.wraper-content aside.profile .followers ul li {
     margin: 0 5px 10px 0;
 }
 
-div.wraper-content aside.profile .images ul {
+div.wrapper-content aside.profile .images ul {
     list-style: none;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-div.wraper-content aside.profile .images ul li {
+div.wrapper-content aside.profile .images ul li {
     width: 80px;
     height: 80px;
     background: #d0d5d9;
     border-radius: 8px;
     flex: 1 0 auto;
     margin: 0 5px 5px 0;
+}
+
+
+div.wrapper-content .timeline {
+    flex: 1;
+    align-items: baseline;
+}
+
+div.wrapper-content aside.widgets {
+    width: 290px;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+    background: #fff;
+    padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+    font-size: 18px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+    color: #3bb9e3;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+} 
+
+div.wrapper-content aside.widgets .widget .title a::before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: #222;
+    margin-left: 5px;
+    margin-right: 5px;
+    position :absolute;
+    left: 0px;
+    top: 6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccd6dd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+    font-size: 14px;
+    color: #1f2326;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span {
+    font-weight: normal;
+    color: #9a9a9a;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+    width: 90px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3bb9e3;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid #3bb9e3;
+    border-radius: 16px;
+    background: none;
+    margin-top: 4px;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a{
+    color: #ccd6dd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div.wrapper-content aside.widgets .trends {
+    margin-top: 10px;
+}
+
+
+div.wrapper-content aside.widgets .trends .title {
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.widgets .trends .title strong {
+    font-size: 18px;
+    color: #1f2226;
+}
+
+div.wrapper-content aside.widgets .trends .title a {
+    color: #3bb9e3;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 10px;
+} 
+
+div.wrapper-content aside.widgets .trends ul {
+    list-style: none;
+}
+
+div.wrapper-content aside.widgets .trends li {
+    margin: 8px 0px;
+    font-weight: bold;
+    color: #3bb9e3;
+}
+
+div.wrapper-content aside.widgets > p {
+    margin-left: 15px;;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #667580;
 }
